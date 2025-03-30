@@ -218,7 +218,7 @@ plt.show()
 
 ### 실행 결과
 
-![image.png](L05/result_report/image 1.png)
+![image.png](image%201.png)
 
 
 - **Original Image**: 원본 이미지
