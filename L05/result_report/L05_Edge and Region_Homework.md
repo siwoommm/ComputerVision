@@ -218,7 +218,8 @@ plt.show()
 
 ### 실행 결과
 
-![image.png](image%201.png)
+![image.png](L05/result_report/image 1.png)
+
 
 - **Original Image**: 원본 이미지
 - **Canny & Hough**: 캐니 에지 및 허프 변환을 적용하여 검출된 직선이 표시된 이미지
