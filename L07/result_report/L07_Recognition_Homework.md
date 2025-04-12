@@ -10,7 +10,6 @@
 - 모델을 훈련시키고 정확도를 평가한다.
 - 손글씨 숫자는 28×28 픽셀 크기의 흑백 이미지이다.
 
----
 
 ### 2. 코드
 
@@ -49,9 +48,6 @@ model.fit(x_train, y_train, epochs=10, batch_size=32, validation_split=0.1)
 test_loss, test_acc = model.evaluate(x_test, y_test)
 print(f'\n테스트 정확도: {test_acc:.4f}')
 
-```
-
----
 
 ### 3. 코드 설명
 
@@ -197,7 +193,6 @@ y_test = to_categorical(y_test, 10)
     
     
 
----
 
 ### (2) 모델 구성 (CNN 구조 설계)
 
@@ -219,7 +214,6 @@ model = Sequential([
 
 같은 방식으로 Conv Block 2, 3도 반복되며 필터 수는 64 → 128로 증가하여 더 복잡한 특징을 추출하도록 설계됨.
 
----
 
 ### (3) 분류기 구성 (Flatten + Dense)
 
